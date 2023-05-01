@@ -10,7 +10,7 @@ const LoginButton = () => {
       colorScheme="blue"
       onClick={() => {
         loginWithRedirect();
-        console.log("動いた！");
+        console.log("onClick確認"); //saeki確認用
       }}
     >
       Login
